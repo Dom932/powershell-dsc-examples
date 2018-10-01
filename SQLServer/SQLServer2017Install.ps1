@@ -325,10 +325,10 @@ $ConfigurationData = @{
                                 AgtSvcAccount = $SQLSvcAccount
                                 #Service account for Analysis Services service
                                 #Comment out for default
-                                #ASSvcAccount = Get-Credential -UserName 'Test\ASAdmin' -Message "SQL Integration Services Service Account"
+                                #ASSvcAccount = Get-Credential -UserName 'Test\ASAdmin' -Message "SQL Analysis Services Service Account"
                                 #Service account for Integration Services service
                                 #Comment out for default
-                                #ISSvcAccount = Get-Credential -UserName 'Test\ASAdmin' -Message "SQL Analysis Services Service Account"
+                                #ISSvcAccount = Get-Credential -UserName 'Test\ISAdmin' -Message "SQL Integration Services Service Account"
                                 #SQL 2017 install package does not include Reporting Services
                                 #Comment out for default
                                 #RSServiceAccount = Get-Credential -UserName 'Test\RSAdmin' -Message "SQL Reporting Services Service Account"
@@ -435,10 +435,10 @@ $ConfigurationData = @{
                                 #AgtSvcAccount = $SQLSvcAccount
                                 #Service account for Analysis Services service
                                 #Comment out for default
-                                #ASSvcAccount = Get-Credential -UserName 'Test\ASAdmin' -Message "SQL Integration Services Service Account"
+                                #ASSvcAccount = Get-Credential -UserName 'Test\ASAdmin' -Message "SQL Analysis Services Service Account"
                                 #Service account for Integration Services service
                                 #Comment out for default
-                                #ISSvcAccount = Get-Credential -UserName 'Test\ASAdmin' -Message "SQL Analysis Services Service Account"
+                                #ISSvcAccount = Get-Credential -UserName 'Test\ISAdmin' -Message "SQL Integration Services Service Account"
                                 #SQL 2017 install package does not include Reporting Services
                                 #Comment out for default
                                 #RSServiceAccount = Get-Credential -UserName 'Test\RSAdmin' -Message "SQL Reporting Services Service Account"
